@@ -45,7 +45,7 @@ begin
 		/*For Command 4 */
 		//Reg_File[1] <= 200 ;
 		//Reg_File[0] <= 100 ;
-		
+		RdData <= 'b0 ;
 		RdData_Valid <= 1'b0 ;
     end
   else
